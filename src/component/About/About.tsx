@@ -9,13 +9,13 @@ const About = () => {
   return (
     <div className="max-w-7xl mx-auto grid grid-cols-3 gap-14 py-10 md:py-16">
         <div className="hidden md:block col-span-1">
-            <Image src="/images/profilePic.jfif" alt='profile_pic' width={220} height={340} className="w-full aspect-[5/7] object-cover object-top"/>
+            <Image src="/images/profilePic.jpg" alt='profile_pic' width={220} height={340} className="w-full aspect-[5/7] object-cover object-top"/>
         </div>
         <div className="col-span-3 md:col-span-2 flex flex-col gap-3 md:gap-5">
             <h2 className="text-xs uppercase font-bold text-lime-500 tracking-[.3em]">My Intro</h2>
             <h3 className="text-3xl md:text-4xl font-medium text-white">About Me</h3>
             <p className="text-lime-500 text-base md:text-lg">
-                I am a MERN stack developer with experience in creating web applications using HTML, CSS, JavaScript, React, Next.js, Node.js, Express.js, and MongoDB. I have a passion for developing user-friendly web applications and am committed to continuously improving my skills. I strive to deliver high-quality solutions that meet the needs of users and businesses alike.
+                I am a MERN stack developer with experience in creating web applications using HTML, CSS, JavaScript, React, Next.js, React Native, Node.js, Express.js, and MongoDB. I have a passion for developing user-friendly web applications and am committed to continuously improving my skills. I strive to deliver high-quality solutions that meet the needs of users and businesses alike.
             </p>
             <ul className="flex flex-col gap-3 mt-5 font-medium">
                 <li className="flex flex-row flex-wrap gap-2 md:gap-5 text-sm md:text-base">

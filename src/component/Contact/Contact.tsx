@@ -75,7 +75,7 @@ const Contact = () => {
             <div className="flex flex-col gap-2">
                 <h3 className="text-xs text-neutral-400">Social Media</h3>
                 <div className="text-lime-500 flex flex-row items-center gap-2">
-                    <Link href="https://www.instagram.com" target="_blank">
+                    <Link href="https://www.instagram.com/noob_programmer18/" target="_blank">
                         <BsInstagram className='text-xl cursor-pointer'/>
                     </Link>
                     <Link href="https://www.twitter.com" target="_blank">

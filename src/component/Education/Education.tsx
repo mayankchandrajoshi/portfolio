@@ -6,7 +6,7 @@ const education = [
     courseName:"BSc. Computer Science",
     university:"Delhi University",
     form:"Nov 2020",
-    to:"Present",
+    to:"July 2023",
     duration:"3 years"
   },
   {
