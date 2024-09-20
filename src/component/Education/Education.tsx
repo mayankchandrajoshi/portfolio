@@ -13,7 +13,7 @@ const education = [
     courseName:"11-12th Science",
     university:"Government Co- Education Senior Secondary School",
     form:"Mar 2018 ",
-    to:"Apr 2022",
+    to:"Apr 2020",
     duration:"2 years"
   },
 ]
