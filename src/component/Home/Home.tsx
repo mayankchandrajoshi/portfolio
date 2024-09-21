@@ -13,7 +13,7 @@ const Home:React.FC = () => {
               <span className="">Full Stack developer</span>
             </div>
             <div className="flex flex-row flex-wrap gap-7">
-              <Link href='https://bit.ly/resumeeeeeeeeeeeeeeeeeeeeeeeeeeee' target='_blank' className="px-6 py-2 bg-lime-500 text-white cursor-pointer">
+              <Link href='https://drive.google.com/file/d/1a5XnbFRl8Bm8LYlzuUzsLkUXnmdN2ud2/view?usp=drivesdk' target='_blank' className="px-6 py-2 bg-lime-500 text-white cursor-pointer">
                 Download CV
               </Link>
               <Link className="flex flex-row items-center gap-2 px-6 py-2 border-2 border-lime-500 cursor-pointer" href='https://www.linkedin.com/in/mayank-chandra-joshi-b4ab41237/' target='_blank'>
