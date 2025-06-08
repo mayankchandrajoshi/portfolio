@@ -7,6 +7,7 @@ import { MdDevicesOther } from 'react-icons/md'
 import Skill from './SkillButton'
 import { skillInterface } from '@/interface/skillInterface'
 import { IconType } from 'react-icons/lib'
+import { connectToDatabase } from '@/lib/db'
 
 const icons: { [key: string]: IconType } = {
   CgWebsite,
@@ -16,7 +17,30 @@ const icons: { [key: string]: IconType } = {
   MdDevicesOther
 }
 
-const Skills:React.FC<{ skills: skillInterface[]}> = ({skills}) => {
+const getSkills = async () => {
+  try {
+    const db = await connectToDatabase();
+    const skillsCollection = db.db.collection('skills');
+
+    const skills = await skillsCollection.find().toArray();
+
+    await db.client.close();
+
+    return skills.map((skill)=>{
+      return {
+        name:skill.name,
+        skills:skill.skills,
+        icon:skill.icon
+      }
+    });
+  } catch (error) {
+    return [];
+  }
+}
+
+const Skills:React.FC<{}> = async () => {
+  const skills:skillInterface[] = await getSkills();
+
   return (
     <div className='max-w-7xl mx-auto py-10 md:py-16'>
       <div className="flex flex-row justify-center gap-3">

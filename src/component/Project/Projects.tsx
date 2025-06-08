@@ -1,9 +1,36 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import ProjectCard from './ProjectCard'
 import { projectInterface } from '../../interface/projectInterface'
+import { connectToDatabase } from '@/lib/db';
+
+const getProjects = async () => {
+  try {
+    const db = await connectToDatabase();
+    const projectsCollection = db.db.collection('project');
+
+    const projects = await projectsCollection.find().toArray();
+
+    await db.client.close();
+
+    return projects.map((project)=>{
+      return {
+        name:project.name,
+        image: {
+          url: project.image.url
+        },
+        skills: project.skills,
+        desc: project.desc,
+        liveLink: project.liveLink,
+      }
+    });
+  } catch (error) {
+    return [];
+  }
+}
 
 
-const Projects:React.FC<{ projects:projectInterface[] }> = ({projects}) => {
+const Projects:React.FC<{}> = async () => {
+  const projects:projectInterface[] = await getProjects();
     
   return (
     <div className='max-w-7xl mx-auto py-10 md:py-16'>
