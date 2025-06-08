@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useRef, useState } from 'react'
 import {IoMail} from 'react-icons/io5';
 import axios from 'axios';
