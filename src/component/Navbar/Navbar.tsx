@@ -63,6 +63,10 @@ const Navbar:React.FC<NavBarType> = ({activeSection,setActiveSection}) => {
             <span className={`text-2xl md:text-sm font-semibold transition-colors duration-500 ${activeSection==="skills"?"text-black md:text-lime-500":"text-white"}`}>Skills</span>
             <p className={`w-2 md:w-[6px] h-2 md:h-[6px] rounded-full transition-colors duration-500 ${activeSection==="skills"?"bg-black md:bg-lime-500":"bg-transparent"}`}></p>
           </a>
+          <a href='#career' className="flex flex-row md:flex-col gap-3 md:gap-1 items-center cursor-pointer" onClick={()=>setActiveSection("career")}>
+            <span className={`text-2xl md:text-sm font-semibold transition-colors duration-500 ${activeSection==="career"?"text-black md:text-lime-500":"text-white"}`}>Career</span>
+            <p className={`w-2 md:w-[6px] h-2 md:h-[6px] rounded-full transition-colors duration-500 ${activeSection==="career"?"bg-black md:bg-lime-500":"bg-transparent"}`}></p>
+          </a>
           <a href='#projects' className="flex flex-row md:flex-col gap-3 md:gap-1 items-center cursor-pointer" onClick={()=>setActiveSection("projects")}>
             <span className={`text-2xl md:text-sm font-semibold transition-colors duration-500 ${activeSection==="projects"?"text-black md:text-lime-500":"text-white"}`}>Projects</span>
             <p className={`w-2 md:w-[6px] h-2 md:h-[6px] rounded-full transition-colors duration-500 ${activeSection==="projects"?"bg-black md:bg-lime-500":"bg-transparent"}`}></p>

@@ -7,6 +7,7 @@ import Skills from "@/component/Skills/Skills";
 import Projects from "@/component/Project/Projects";
 import Education from "@/component/Education/Education";
 import Contact from "@/component/Contact/Contact";
+import EmploymentSection from "@/component/Employment/EmploymentSection";
 
 function page() {
   return (
@@ -19,17 +20,20 @@ function page() {
           <About />
         </section>
         <section className={`bg-neutral-900 p-2 min-[400px]:p-5`} id="skills">
-          <Skills/>
+          <Skills />
         </section>
-        <section className={`bg-black p-2 min-[400px]:p-5`} id="projects">
-          <Projects/>
+        <section className={`bg-black p-2 min-[400px]:p-5`} id="career">
+          <EmploymentSection />
         </section>
-        <section className={`bg-neutral-900 p-2 min-[400px]:p-5`} id="education">
-        <Education/>
-      </section>
-      <section className={`bg-black p-2 min-[400px]:p-5`} id="contact">
-        <Contact/>
-      </section>
+        <section className={`bg-neutral-900 p-2 min-[400px]:p-5`} id="projects">
+          <Projects />
+        </section>
+        <section className={`bg-black p-2 min-[400px]:p-5`} id="education">
+          <Education />
+        </section>
+        <section className={`bg-neutral-900 p-2 min-[400px]:p-5`} id="contact">
+          <Contact />
+        </section>
       </>
     </HomeLayout>
   );
