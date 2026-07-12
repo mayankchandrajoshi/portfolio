@@ -32,7 +32,7 @@ const About = () => {
                 </li>
                 <li className="flex flex-row flex-wrap gap-2 md:gap-5 text-sm md:text-base">
                     <h3 className="text-white min-w-[110px]">Email :</h3>
-                    <h3 className="text-lime-500 break-all">mayankchandrajoshi9871@gmail.com</h3>
+                    <h3 className="text-lime-500 break-all">mayankjoshi9871@gmail.com</h3>
                 </li>
             </ul>
             <div className="flex flex-row flex-wrap gap-8 md:gap-10 items-center mt-10">

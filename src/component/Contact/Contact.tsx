@@ -77,13 +77,13 @@ const Contact = () => {
             <div className="flex flex-col gap-2">
                 <h3 className="text-xs text-neutral-400">Social Media</h3>
                 <div className="text-lime-500 flex flex-row items-center gap-2">
-                    <Link href="https://www.instagram.com/noob_programmer18/" target="_blank">
+                    <Link href="https://www.instagram.com/mayank.joshi23" target="_blank">
                         <BsInstagram className='text-xl cursor-pointer'/>
                     </Link>
-                    <Link href="https://www.twitter.com" target="_blank">
+                    <Link href="https://x.com/mayankjoshi9871" target="_blank">
                         <FaTwitterSquare className='text-[23px] cursor-pointer'/>
                     </Link>
-                    <Link href="https://www.linkedin.com/in/mayank-chandra-joshi-b4ab41237/" target="_blank">
+                    <Link href="https://www.linkedin.com/in/mayank-chandra-joshi" target="_blank">
                         <BsLinkedin className='text-xl cursor-pointer'/>
                     </Link>
                     <Link href="https://github.com/mayankchandrajoshi/" target="_blank">
@@ -94,7 +94,7 @@ const Contact = () => {
             </div>
             <div className="flex flex-col gap-2 break-all">
                 <h3 className="text-xs text-neutral-400">Contact me via mail</h3>
-                <h3 className="text-sm font-semibold text-lime-500">mayankchandrajoshi9871@gmail.com</h3>
+                <h3 className="text-sm font-semibold text-lime-500">mayankjoshi9871@gmail.com</h3>
             </div>
         </div>
     </div>

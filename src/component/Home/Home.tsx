@@ -16,7 +16,7 @@ const Home:React.FC = () => {
               <Link href='https://drive.google.com/file/d/14ZYsgAs5ctNbW81yI0_HZ4zBWnGDBBLm/view?usp=sharing' target='_blank' className="px-6 py-2 bg-lime-500 text-white cursor-pointer">
                 Download CV
               </Link>
-              <Link className="flex flex-row items-center gap-2 px-6 py-2 border-2 border-lime-500 cursor-pointer" href='https://www.linkedin.com/in/mayank-chandra-joshi-b4ab41237/' target='_blank'>
+              <Link className="flex flex-row items-center gap-2 px-6 py-2 border-2 border-lime-500 cursor-pointer" href='https://www.linkedin.com/in/mayank-chandra-joshi' target='_blank'>
                 <BsLinkedin className='text-xl text-lime-500'/>
                 <span className="text-white font-medium">Connect</span>
               </Link>
