@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div className="max-w-7xl mx-auto grid grid-cols-3 gap-14 py-10 md:py-16">
         <div className="hidden md:block col-span-1">
-            <Image src="/images/profilePic.jpg" alt='profile_pic' width={220} height={340} className="w-full aspect-[5/7] object-cover object-top"/>
+            <Image src="/images/profile_pic.png" alt='profile_pic' width={220} height={340} className="w-full aspect-[5/7] object-cover object-top"/>
         </div>
         <div className="col-span-3 md:col-span-2 flex flex-col gap-3 md:gap-5">
             <h2 className="text-xs uppercase font-bold text-lime-500 tracking-[.3em]">My Intro</h2>

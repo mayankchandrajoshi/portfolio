@@ -24,7 +24,7 @@ const Home:React.FC = () => {
           </div>
           <div className="">
             <div className="bg-lime-500 mx-auto w-[75%] min-[360px]:w-72 aspect-[5/7] -translate-x-5 md:-translate-x-16">
-              <Image src="/images/profile_pic.jpg" alt='profile_pic' width={220} height={340} className="w-full aspect-[5/7] object-cover object-top translate-x-5 -translate-y-5 md:translate-x-8 md:-translate-y-8"/>
+              <Image src="/images/profile_pic.png" alt='profile_pic' width={220} height={340} className="w-full aspect-[5/7] object-cover object-top translate-x-5 -translate-y-5 md:translate-x-8 md:-translate-y-8"/>
             </div>
           </div>
     </div>
