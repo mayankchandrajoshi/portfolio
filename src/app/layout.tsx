@@ -64,6 +64,10 @@ export const metadata: Metadata = {
     follow: true,
   },
 
+  verification: {
+    google: "00sznMsAEA8dy8_sQgWbCwFM_V79UQojKGTp7RB8tAI",
+  },
+
   openGraph: {
     type: "website",
     locale: "en_US",
